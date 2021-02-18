@@ -17,6 +17,12 @@ WIN_COMBINATIONS = [
 
 #     board[combo[0]] == "X" && board[combo[1]] == "X" && board[combo[2]] == "X"
 
+
+def won?(board)
+  WIN_COMBINATIONS.detect do |combo|
+  end
+end
+
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
     board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]] && board[combo[2]] != " "
