@@ -15,12 +15,6 @@ WIN_COMBINATIONS = [
   [2,5,8]
 ]
 
-def won?(board)
-  WIN_COMBINATIONS.detect {|combo| board.}
-
-  e
-end
-
 
 
 def won?(board)
