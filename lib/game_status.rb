@@ -37,4 +37,11 @@ end
 
 # define #draw?(board) method
 def draw?(board)
+  if full?(board) && !won?(board)
+    true
+  elsif !full? && won?(board)
+    false
+  else
+    false
+  end
 end
