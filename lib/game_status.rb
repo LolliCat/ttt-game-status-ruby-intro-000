@@ -20,6 +20,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
+    position_taken?(board, board[combo[0]]) && position_taken?(board, board[combo[1]]) && position_taken?(board, board[combo[2]])
   end
 end
 
