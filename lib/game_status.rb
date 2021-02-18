@@ -23,5 +23,3 @@ def won?(board)
     position_taken?(board, board[combo[0]]) && position_taken?(board, board[combo[1]]) && position_taken?(board, board[combo[2]])
   end
 end
-
-
