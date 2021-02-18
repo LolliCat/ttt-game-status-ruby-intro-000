@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
   [2,5,8]
 ]
 
+board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
 
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
