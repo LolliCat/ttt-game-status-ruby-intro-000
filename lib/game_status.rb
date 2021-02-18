@@ -31,3 +31,5 @@ end
 #end
 
 # define #full?(board) method
+def full?(board)
+end
