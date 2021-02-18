@@ -50,3 +50,8 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
+
+# define #winner(board method)
+def winner(board)
+end
+won?(board)[0]
