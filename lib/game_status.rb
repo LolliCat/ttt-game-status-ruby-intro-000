@@ -15,7 +15,6 @@ WIN_COMBINATIONS = [
   [2,5,8]
 ]
 
-board = ["O", "O", " ", "X", "X", "X", " ", " ", " "]
 
 def won?(board)
   winner = "me"
@@ -31,4 +30,3 @@ def won?(board)
   puts "winning combination is #{wins}"
 end
 
-won?(board)
