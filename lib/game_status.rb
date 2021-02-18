@@ -32,3 +32,5 @@ def won?(board)
   puts "winner is #{winner}!"
   puts "winning combination is #{wins}"
 end
+
+won?(board)
