@@ -32,4 +32,5 @@ end
 
 # define #full?(board) method
 def full?(board)
+  board.none? {|spot| spot = " "}
 end
