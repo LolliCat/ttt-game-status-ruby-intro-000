@@ -22,4 +22,5 @@ def won?(board)
       wins = combo
     end
   end
+  wins
 end
