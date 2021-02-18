@@ -27,6 +27,7 @@ def won?(board)
       wins = combo
     else
       wins = false
+      winner = false
     end
   end
   puts "winner is #{winner}!"
