@@ -7,5 +7,4 @@ end
 WIN_COMBINATIONS = [
 
 
-  
 ]
