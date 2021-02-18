@@ -53,5 +53,5 @@ end
 
 # define #winner(board method)
 def winner(board)
+  won?(board)[0]
 end
-won?(board)[0]
