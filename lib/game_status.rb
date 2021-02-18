@@ -29,5 +29,6 @@ def won?(board)
       wins = false
     end
   end
-  wins
+  puts "winner is #{winner}!"
+  puts "winning combination is #{wins}""
 end
