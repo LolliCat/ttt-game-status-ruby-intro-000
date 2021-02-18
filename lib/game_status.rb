@@ -21,7 +21,7 @@ def won?(board)
       winner = "X"
     elsif board[combo[0]] == "O" && board[combo[1]] == "O" && board[combo[2]] == "O"
       winner = "O"
-    else 
+    else
       winner = false
     end
 end
