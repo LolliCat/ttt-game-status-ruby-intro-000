@@ -34,3 +34,7 @@ end
 def full?(board)
   board.all? { |position| position != " " }
 end
+
+# define #draw?(board) method
+def draw?(board)
+end
